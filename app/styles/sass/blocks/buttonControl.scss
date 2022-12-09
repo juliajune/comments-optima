@@ -1,0 +1,36 @@
+/* Button controll. Contol with icon */
+.buttonControl{
+    text-decoration: none;
+    border: 0;
+    box-shadow: 0;
+    background-color: transparent;
+    color: $color-cobalt;
+    transition: $transition;
+    font-weight: 600;
+    text-transform: capitalize;
+    display: inline-block;
+    svg{
+        margin-right: 5px;
+        fill: $color-cobalt;
+        transition: $transition;
+    }
+    &:hover{
+        cursor: pointer;
+        color: $color-cobalt-light;
+        svg{
+            fill: $color-cobalt-light;
+        }
+    }
+    &_attention{
+        color: $color-red;
+        svg{
+            fill: $color-red;
+        }
+        &:hover{
+            color: $color-red-light;
+            svg{
+                fill: $color-red-light;
+            }
+        }
+    }
+}

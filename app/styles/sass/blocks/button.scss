@@ -1,0 +1,31 @@
+/* BUTTON */
+.button{
+    display: block;
+    background-color: $color-cobalt;
+    color: $color-light;
+    padding: 12px 22px;
+    transition: $transition;
+    box-shadow: none;
+    border-radius: $border-radius;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-family: $text-font;
+    min-width: 100px;
+    &:hover{
+        cursor: pointer;
+        background-color: $color-cobalt-light;
+    } 
+    &_info{
+        background-color: $color-gray;
+        &:hover{
+            background-color: $color-gray-light;
+        }
+    }
+    &_attention{
+        background-color: $color-red;
+        &:hover{
+            background-color: $color-red-light;
+        }
+    }   
+}

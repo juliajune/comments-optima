@@ -1,0 +1,50 @@
+/* VOTER */
+.voter{
+    background-color: $color-dirty-light;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    border-radius: $border-radius;    
+    &__text{
+        color: $color-cobalt;
+        font-weight: 500;        
+    }
+    &_gorizontal{
+        flex-direction: row;
+        .voter__text{
+            padding: 0px 15px;
+        }
+    }
+    &_vertical{
+        flex-direction: column;
+        .voter__text{
+            padding: 15px 0px; 
+        }
+    }
+    &__button{
+        border: 0;
+        box-shadow: 0;
+        background-color: transparent;
+        transition: $transition;
+        &_minus{
+            svg{
+                transform: translateY(-3px);                
+            }
+        }        
+        svg{
+            fill:$light-grayish-blue;
+            transition: $transition;            
+        }
+        &:hover{
+            cursor: pointer;
+            svg{
+                fill: $color-cobalt;             
+            }
+        } 
+    }    
+    &:hover{
+        background-color: $color-sky-blue-light;
+        transition: $transition;
+    }
+}

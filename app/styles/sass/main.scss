@@ -1,0 +1,19 @@
+@use 'sass:math';
+@use 'sass:color';
+
+//@import config
+//@import 'fonts';
+@import 'vars';
+@import 'reset';
+@import 'global';
+//@import 'blocks/**/*';
+@import 'blocks/comments';
+@import 'blocks/comment';
+@import 'blocks/comment-form';
+@import 'blocks/comment-author';
+@import 'blocks/avatar';
+@import 'blocks/voter';
+@import 'blocks/button';
+@import 'blocks/buttonControl';
+@import 'blocks/textarea';
+

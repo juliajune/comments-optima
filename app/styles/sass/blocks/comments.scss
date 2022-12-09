@@ -1,0 +1,14 @@
+/* COMMENTS */
+.comments{
+    &__list{
+        &_child{
+            border-left: 2px solid $light-grayish-blue;
+            padding-left: 15px;
+        }
+    }
+    &__item{
+        &:not(last-child){
+            margin-bottom: 15px;
+        }
+    }    
+}

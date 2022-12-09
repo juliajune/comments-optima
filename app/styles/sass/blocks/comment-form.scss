@@ -1,0 +1,15 @@
+/* COMMENT FORM */
+.comment-form{
+    background-color: $color-light;
+    border-radius: $border-radius;
+    padding: 15px;
+    &__textarea{
+        width: 100%;
+        
+    }
+    &__footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

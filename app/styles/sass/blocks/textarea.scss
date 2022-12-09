@@ -1,0 +1,18 @@
+/* TEXTAREA */
+.textarea{
+    border: 1px solid $light-grayish-blue;
+    border-radius: $border-radius;
+    padding: 10px;
+    transition: $transition;
+    &:focus{
+        border-color: $color-cobalt;
+        &::placeholder{
+            opacity: 0;
+        }
+    }
+    &::placeholder{
+        color: $light-grayish-blue;
+        transition: $transition;
+        opacity: 1;
+    }
+}

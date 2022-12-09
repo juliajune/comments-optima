@@ -1,0 +1,12 @@
+/* COMMENT AUTHOR */
+.comment-author{
+    display: flex;
+    align-items: center;
+    &__photo{        
+        margin-right: 15px;
+    }
+    &__name{
+        font-weight: 700;  
+        color: $color-cobalt;     
+    }    
+}
